@@ -1,0 +1,93 @@
+😀️🔹 1. INTRODUCTORY PROBLEMS (POINTER BASICS)
+
+These are to get comfortable with pointer syntax, addresses, and dereferencing.
+
+Print the address of a variable using a pointer.
+
+Swap two numbers using pointers.
+
+Find the length of a string using pointers (no strlen).
+
+Copy one string into another using pointers.
+
+Reverse a string using pointers.
+
+Count vowels, consonants, digits in a string using pointers.
+
+Implement your own strcpy, strcmp, strcat using pointers.
+
+Dynamic memory allocation: take an array input using malloc/calloc and print it.
+
+😀️🔹 2. BASIC PROBLEMS (POINTER ARITHMETIC & ARRAYS)
+
+Now you use pointers for arrays and simple manipulations.
+
+Access array elements using pointers (no indexing).
+
+Find the largest and smallest element in an array using pointers.
+
+Reverse an array using pointers.
+
+Rotate an array left/right using pointers.
+
+Implement bubble sort using only pointers (no arr[i] notation).
+
+Implement binary search using pointers.
+
+Find second largest element in an array using pointers.
+
+Merge two arrays using pointers.
+
+😀️🔹 3. INTERMEDIATE PROBLEMS (FUNCTION POINTERS & 2D ARRAYS)
+
+Once you are comfortable, move to multidimensional arrays and function pointers.
+
+Implement a matrix addition/multiplication using pointers.
+
+Transpose of a matrix using pointers.
+
+Write a function that accepts a function pointer for arithmetic operations (add, subtract, multiply, divide).
+
+Implement a callback function using function pointers.
+
+Dynamic memory allocation for a 2D array using pointers.
+
+😀️🔹 4. ADVANCED PROBLEMS (POINTERS + DATA STRUCTURES)
+
+Here you combine pointers + data structures.
+
+Implement a singly linked list (insert, delete, traverse).
+
+Implement a doubly linked list.
+
+Implement a circular linked list.
+
+Implement a stack using linked list.
+
+Implement a queue using linked list.
+
+Implement a binary tree (insertion + traversal using recursion and without recursion).
+
+Implement a binary search tree (BST) (insert, search, delete).
+
+Implement a graph using adjacency list (pointer to linked list).
+
+Implement hash table with chaining using pointers + linked list.
+
+😀️🔹 5. EXPERT CHALLENGES (POINTER MASTERY)
+
+These test your deep understanding.
+
+Implement your own malloc() and free() (simple memory manager).
+
+Implement a Trie (prefix tree) using pointers.
+
+Implement a priority queue / heap using pointer-based binary tree.
+
+Implement a graph traversal (DFS, BFS) using adjacency list with pointers.
+
+Solve Josephus Problem using circular linked list and pointers.
+
+Implement a LRU Cache using doubly linked list + hash map.
+
+Serialize and deserialize a binary tree using pointers.
