@@ -1,12 +1,24 @@
+
 # 🚀 Data Structures & Algorithms in C
 
 <div align="center">
 
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColorhttps://img.shields.io/badge/License-MIT-green.svg?style=for-thehttps://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?https://img.shields.io/badge/Status-Active-success.svg?style collection of Data Structures and Algorithms implemented in C with detailed explanations and approaches.**
-
-[📚 Documentation](#documentation) -  [🎯 Topics](#topics-covered) -  [💡 Usage](#usage) -  [🤝 Contributing](#contributing)
+  ![C Programming](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c&logoColor=white)
+  ![VS Code](https://img.shields.io/badge/Editor-VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+  
+  <br/><br/>
+  
+  <p><b>A comprehensive collection of Data Structures and Algorithms implemented in C with detailed explanations and approaches.</b></p>
+  
+  <br/>
+  
+  [📚 Documentation](https://www.perplexity.ai/search/best-linklisted-topics-and-pro-ybd8Za67T.KKyT2LARNf6w?preview=1#documentation) &nbsp; • &nbsp; 
+  [🎯 Topics](https://www.perplexity.ai/search/best-linklisted-topics-and-pro-ybd8Za67T.KKyT2LARNf6w?preview=1#topics-covered) &nbsp; • &nbsp; 
+  [💡 Usage](https://www.perplexity.ai/search/best-linklisted-topics-and-pro-ybd8Za67T.KKyT2LARNf6w?preview=1#usage) &nbsp; • &nbsp; 
+  [🤝 Contributing](https://www.perplexity.ai/search/best-linklisted-topics-and-pro-ybd8Za67T.KKyT2LARNf6w?preview=1#contributing)
 
 </div>
+
 
 ***
 
