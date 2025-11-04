@@ -15,13 +15,16 @@ struct Node* createNode(int data) {
 
 int search(struct Node* head, int key) {
     struct Node* current = head;
+    int position = 1; 
+
     while (current != NULL) {
         if (current->data == key) {
-            return 1; 
+            return position; 
         }
         current = current->next;
+        position++;
     }
-    return 0;  
+    return -1; 
 }
 
 void printList(struct Node* head) {
@@ -43,8 +46,9 @@ int main() {
     printList(head);
 
     int key = 30;
-    if (search(head, key)) {
-        printf("Element %d found in the linked list.\n", key);
+    int pos = search(head, key);
+    if (pos != -1) {
+        printf("Element %d found at position %d.\n", key, pos);
     } else {
         printf("Element %d not found in the linked list.\n", key);
     }
