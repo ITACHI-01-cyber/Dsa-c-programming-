@@ -57,9 +57,6 @@
 
 // Pairwise node swap_________________________________------    ------------------------------------------------------------------------------------
 
-    #include <stdio.h>
-#include <stdlib.h>
-
 struct Node {
     int data;
     struct Node* next;
@@ -129,3 +126,82 @@ int main() {
     return 0;
 }
 
+// Nth node from end___________________________________________________________________________________________-
+
+
+struct Node {
+    int data;
+    struct Node *next;
+};
+
+void Print(struct Node *p) {
+    if (p == NULL) return;
+    printf("%d -> ", p->data);
+    Print(p->next);
+}
+
+struct Node* Insert(struct Node *head, int data) {
+    struct Node* temp = (struct Node*)malloc(sizeof(struct Node));
+    temp->data = data;
+    temp->next = NULL;
+
+    if (head == NULL)
+        head = temp;
+    else {
+        struct Node* temp1 = head;
+        while (temp1->next != NULL)
+            temp1 = temp1->next;
+        temp1->next = temp;
+    }
+    return head;
+}
+
+struct Node* reverseList(struct Node* head) {
+    if (head == NULL || head->next == NULL)
+        return head;
+    struct Node* newHead = reverseList(head->next);
+    head->next->next = head;
+    head->next = NULL;
+    return newHead;
+}
+
+struct Node* nthNodeFromStart(struct Node* head, int n) {
+    struct Node* current = head;
+    int count = 1;
+    while (current != NULL && count < n) {
+        current = current->next;
+        count++;
+    }
+    return current;
+}
+
+int main() {
+
+    struct Node* head = NULL;
+    head = Insert(head, 10);
+    head = Insert(head, 20);
+    head = Insert(head, 30);
+    head = Insert(head, 40);
+    head = Insert(head, 50);
+
+    printf("Original list:\n");
+    Print(head);
+    printf("NULL\n");
+
+    head = reverseList(head);
+
+    printf("Reversed list:\n");
+    Print(head);
+    printf("NULL\n");
+
+    int n = 2; // get 2nd node from end
+
+    struct Node* nthNode = nthNodeFromStart(head, n);
+    if (nthNode != NULL) {
+        printf("%dth node from end is %d\n", n, nthNode->data);
+    }
+    else {
+        printf("List is shorter than %d elements\n", n);
+    }
+    return 0;
+}
