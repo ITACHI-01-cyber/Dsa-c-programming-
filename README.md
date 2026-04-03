@@ -8,7 +8,7 @@
   
   <br/><br/>
   
-  <p><b>A comprehensive collection of Data Structures and Algorithms implemented in C with detailed explanations and approaches.</b></p>
+  <p><b>A comprehensive collection of Data Structures and Algorithms implemented in C with detailed explanations and Problems.</b></p>
   
   <br/>
   
